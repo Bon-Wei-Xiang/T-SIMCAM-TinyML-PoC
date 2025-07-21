@@ -1,1 +1,2 @@
 lib/* filter=lfs diff=lfs merge=lfs -text
+lib/BonWeiXiang-project-1_inferencing/src/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.h filter=lfs diff=lfs merge=lfs -text
