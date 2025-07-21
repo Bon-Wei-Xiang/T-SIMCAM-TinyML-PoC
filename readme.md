@@ -34,9 +34,21 @@ Build & Flash
 Run
 ---
 
-Once flashed, the board will connect to Wi-Fi and begin running the TinyML model from Edge Impulse.
-
-Open the Serial Monitor (baud rate: `115200`) to view logs and inference results.
+1.  **Power on the T-SIMCAM board**  
+    The board will automatically connect to your configured Wi-Fi network.
+2.  **Open the Serial Monitor**  
+    Use the Serial Monitor in Arduino IDE, PlatformIO, or any serial terminal.  
+    Set the **baud rate to `115200`**.
+3.  **Watch the Serial Output**  
+    The monitor will display logs, including a message like:
+    
+        Camera Ready! Use http://x.x.x.x to connect
+    
+    This is the local IP address of the camera server on your Wi-Fi network.
+4.  **Access the Camera Interface**  
+    Open the printed URL (e.g., `http://192.168.1.123`) in your web browser.
+5.  **Start Object Detection**  
+    The camera stream interface will appear in your browser. You can now test real-time TinyML inference using the onboard model.
 
 Notes
 -----
