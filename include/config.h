@@ -1,8 +1,8 @@
 #ifndef __CONFIG_H__
 #define __CONFIG_H__
 
-#define WIFI_SSID        "PINA1909"
-#define WIFI_PASSWORD    "PIN578642"
+#define WIFI_SSID        "your-wifi-name"
+#define WIFI_PASSWORD    "your-wifi-password"
 
 #define WIFI_AP_SSID     "T-SIMCAM-"
 #define WIFI_AP_PASSWORD "12345678"
